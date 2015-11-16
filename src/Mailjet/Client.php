@@ -11,17 +11,8 @@
  * @link     http://link.com
  */
 
-namespace mailjet;
+namespace Mailjet;
 
-require 'vendor/autoload.php';
-/**
- * This is the Client class
- * @category Mailjet_API
- * @package  Mailjet-apiv3
- * @author Guillaume Badi <gbadi@mailjet.com>
- * @license MIT https://licencepath.com
- * @link http://link.com
- */
 class Client
 {
     const WRAPPER_VERSION = 'v1.0.0';
@@ -55,7 +46,7 @@ class Client
      * @param array  $args     Request arguments
      * @return Mailjet\Response server response
      */
-    private function call($method, $resource, $action, $args)
+    public function call($method, $resource, $action, $args)
     {
         $args = array_merge(
             [

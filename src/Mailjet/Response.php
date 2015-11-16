@@ -11,16 +11,8 @@
  * @link     http://link.com
  */
 
-namespace mailjet;
+namespace Mailjet;
 
-/**
- * This is the Mailjet Response
- * @category Mailjet_API
- * @package  Mailjet-apiv3
- * @author Guillaume Badi <gbadi@mailjet.com>
- * @license MIT https://licencepath.com
- * @link http://link.com
- */
 class Response
 {
 

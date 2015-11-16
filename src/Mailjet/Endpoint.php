@@ -11,17 +11,8 @@
  * @link     http://link.com
  */
 
-namespace mailjet;
+namespace Mailjet;
 
-require 'vendor/autoload.php';
-/**
- * This is the Resource class
- * @category Mailjet_API
- * @package  Mailjet-apiv3
- * @author Guillaume Badi <gbadi@mailjet.com>
- * @license MIT https://licencepath.com
- * @link http://link.com
- */
 class Endpoint
 {
     public function __construct($resource, $action = '')

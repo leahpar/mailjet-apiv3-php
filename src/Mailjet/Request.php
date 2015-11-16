@@ -13,16 +13,6 @@
 
 namespace Mailjet;
 
-require 'vendor/autoload.php';
-
-/**
- * This is the Mailjet Request class
- * @category Mailjet_API
- * @package  Mailjet-apiv3
- * @author Guillaume Badi <gbadi@mailjet.com>
- * @license MIT https://licencepath.com
- * @link http://link.com
- */
 class Request extends \GuzzleHttp\Client
 {
 

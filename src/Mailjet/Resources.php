@@ -1,19 +1,6 @@
 <?php
-/**
- * PHP version 5
- *
- * This is the Mailjet Resources file
- *
- * @category Mailjet_API
- * @package  Mailjet-apiv3
- * @author   Guillaume Badi <gbadi@mailjet.com>
- * @license  MIT https://licencepath.com
- * @link     http://link.com
- */
 
-namespace mailjet;
-
-require 'vendor/autoload.php';
+namespace Mailjet;
 
 /**
  * PHP version 5
